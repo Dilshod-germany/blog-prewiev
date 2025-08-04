@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+*:focus{
+    outline: 2px dotted blue;
+    outline-offset: 3px;
+}
+
 a{
     text-decoration: none;
     display: inline-block;
@@ -20,12 +25,15 @@ body{
     height: 100%;
     display: flex;
     background-color: #f4d04e;
+
 }
 
 .main {
     flex-grow: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 .card {
     width: 384;
